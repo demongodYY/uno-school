@@ -1,10 +1,12 @@
 <template>
   <div>
     <div class="footer-apply">
-      <h1>
-        Come & join us today!
-      </h1>
-      <mt-button plain size="large" class="apply-button"> {{$t('button.apply')}} </mt-button>
+      <div class="inner">
+        <h1>
+          {{$t('footer.apply')}}
+        </h1>
+        <mt-button plain size="large" class="apply-button"> {{$t('button.apply')}} </mt-button>
+      </div>
     </div>
     <div class="footer-wrapper">
       <h2>Contact ILUNO</h2>
@@ -26,20 +28,29 @@ export default {
 <style scoped>
   .footer-wrapper {
     background-color: #0e0e0e;
-    padding: 2rem .7rem .7rem 1rem;
+    padding: 2rem 5% .7rem 5%;
     text-align: left;
     color: #999999;
-    width:100%
+    width:90%
   }
   .footer-apply {
-    background-color: red;
-    padding: 2.5rem 2.5%;
+    background: url('../assets/test2.jpg') no-repeat;
+    background-size: cover;
     color: #ffffff;
     text-align: center;
+    /* height: 35vh; */
     width:100%;
   }
+  .footer-apply .inner {
+    background-color: rgba(215,25,32,.8);
+    padding: 10% 7.5%;
+    height: 80%;
+    width: 85%;
+  }
   .footer-apply h1 {
-    width: 95%;
+    margin-bottom: 8vh;
+    color: #fff;
+    margin-top: 0;
   }
   .apply-button {
     border: 1.2px solid #ffffff;

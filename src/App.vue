@@ -32,4 +32,18 @@ export default {
     margin-top: 60px;
     font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
   }
+  h1,h2,h3,h4 {
+    color: #0E0E0E;
+  }
+  p {
+    color: #606060;
+  }
+  .banner {
+    width: 100%;
+    height: 35vh;
+  }
+  .banner img {
+    width: 100%;
+    height: 100%;
+  }
 </style>

@@ -1,8 +1,9 @@
 <template>
   <div class="wrapper">
     <mt-header fixed class="header-container">
-      <div slot="left">
-        logo+title
+      <div slot="left" class="header-left">
+        <img src="@/assets/logo.png" alt="logo"/>
+        <div>ILUNO<br/>PROGRAM</div>
       </div>
       <div slot="right">
         <mt-button size="normal" plain class="button-switch" @click="lanChange">{{$t('type')}}</mt-button>
@@ -53,7 +54,22 @@ export default {
   .header-container{
     background-color: #0e0e0e;
     height:11vh;
-    padding: 0 10%;
+    padding: 0 5%;
+  }
+  .header-left {
+    color: #fff;
+  }
+  .header-left img {
+    height: auto;
+    width: 15vw;
+  }
+  .header-left div {
+    margin-top: 2vh;
+    margin-left: .5rem;
+    display: inline-block;
+    vertical-align: top;
+    inline-size: 1.1rem;
+    font-weight: bold;
   }
   .button-switch{
     padding: 0 1rem;
