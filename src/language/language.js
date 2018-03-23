@@ -22,13 +22,13 @@ export default {
         title: 'Home',
         link: '/'}, {
         title: 'About ILUNO',
-        link: '/'}, {
+        link: '/about'}, {
         title: 'The Community',
-        link: '/'}, {
+        link: '/community'}, {
         title: 'Life in ILUNO',
-        link: '/'}, {
+        link: '/life'}, {
         title: 'Contact',
-        link: '/'}]
+        link: '/contact'}]
     },
     footer: {
       apply: 'Come & join us today!'
@@ -52,13 +52,13 @@ export default {
         title: '主页',
         link: '/'}, {
         title: '关于 ILUNO',
-        link: '/'}, {
+        link: '/about'}, {
         title: '社区情况',
-        link: '/'}, {
+        link: '/community'}, {
         title: '在ILUNO的生活',
-        link: '/'}, {
+        link: '/life'}, {
         title: '联系我们',
-        link: '/'}]
+        link: '/contact'}]
     },
     footer: {
       apply: '现在就来加入我们吧!'

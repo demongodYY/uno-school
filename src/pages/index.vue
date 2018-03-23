@@ -6,7 +6,7 @@
     <div class="introduce">
       <h1>{{$t('pages.index.introduce.title')}}</h1>
       <p>{{$t('pages.index.introduce.text')}}</p>
-      <router-link to="/">
+      <router-link to="/apply">
         <mt-button class="apply-button"> {{$t('button.apply')}}</mt-button>
       </router-link>
     </div>
@@ -16,7 +16,7 @@
         <h2>{{cardItem.title}}</h2>
         <p>{{cardItem.text}}</p>
         <div class="left-link">
-          <router-link to="/">{{$t('button.more')}}</router-link>
+          <router-link :to="cardItem.link">{{$t('button.more')}}</router-link>
         </div>
       </div>
     </div>
@@ -62,14 +62,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .banner {
-    width: 100%;
-    height: 35vh;
-  }
-  .banner img {
-    width: 100%;
-    height: 100%;
-  }
   .introduce{
     padding: 5vh 5% 10vh 5%;
   }

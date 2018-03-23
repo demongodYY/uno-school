@@ -7,30 +7,33 @@ const avatar2 = avatar1
 export default {
   zh: {
     introduce: {
-      title: 'Welcome to ILUNO INTENSIVE ENGLISH',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla nulla nulla, nec rhoncus nulla vulputate ut.'
+      title: '欢迎来 ILUNO 学习英语',
+      text: '这里有你一直在寻找的机会，提高你的英语水平，获得更多的自信。'
     },
     cards: [
       {
-        title: 'About ILUNO program',
-        text: 'Curious to know more? Everything about our program can be found here.',
-        img: cardBanner1
+        title: 'ILUNO 项目简介',
+        text: '想要知道更多？ 这里可以找到一切关于我们的项目信息。',
+        img: cardBanner1,
+        link: '/about'
       },
       {
-        title: 'The Community',
-        text: 'Teeming with life, culture, great food, awesome people, and endless opportunities.  ',
-        img: cardBanner2
+        title: '生机勃勃的城市社群',
+        text: '丰富的生活、文化、美食，精彩的伙伴，以及无限的机会。',
+        img: cardBanner2,
+        link: '/community'
       },
       {
-        title: 'Life in ILUNO',
-        text: 'More than just a classroom experience. It’s a game changer. One that will set you apart from others.',
-        img: cardBanner3
+        title: '校园生活',
+        text: '这不仅仅是一次课堂体验，我们会改变游戏的规则， 让你从此与众不同。',
+        img: cardBanner3,
+        link: '/life'
       }
     ],
     comments: {
-      title: 'THE WORLD MEETS HERE',
+      title: '倾听世界的声音',
       location: 'Ohama, Ne',
-      desc: 'In the Heart of the U.S',
+      desc: '在美国的中心',
       cards: [
         {
           avatar: avatar1,
@@ -54,17 +57,20 @@ export default {
       {
         title: 'About ILUNO program',
         text: 'Curious to know more? Everything about our program can be found here.',
-        img: cardBanner1
+        img: cardBanner1,
+        link: '/about'
       },
       {
         title: 'The Community',
         text: 'Teeming with life, culture, great food, awesome people, and endless opportunities.  ',
-        img: cardBanner2
+        img: cardBanner2,
+        link: '/community'
       },
       {
         title: 'Life in ILUNO',
         text: 'More than just a classroom experience. It’s a game changer. One that will set you apart from others.',
-        img: cardBanner3
+        img: cardBanner3,
+        link: '/life'
       }
     ],
     comments: {

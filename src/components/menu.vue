@@ -7,12 +7,14 @@
         <mt-cell v-for="(item, index) in $t('menu.list')" :key="index"
           :title="item.title"
           :to="item.link"
+          v-on:click.native="handleChoose()"
           >
           <span>></span>
         </mt-cell>
       </div>
-
-      <mt-button plain size="large" class="menu-button">{{$t('button.apply')}}</mt-button>
+      <router-link to="/apply" >
+        <mt-button plain size="large" @click="handleChoose()" class="menu-button">{{$t('button.apply')}}</mt-button>
+      </router-link>
 
   </div>
 </template>
@@ -30,7 +32,11 @@ export default {
     }
   },
   methods: {
-  }
+    handleChoose () {
+      this.$emit('update:menuVisible', false)
+    }
+  },
+  props: ['menuVisible']
 }
 </script>
 

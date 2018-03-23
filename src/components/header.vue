@@ -13,7 +13,7 @@
       </div>
     </mt-header>
     <mt-popup v-model="menuVisible" position="right">
-      <side-menu></side-menu>
+      <side-menu :menuVisible.sync="menuVisible"></side-menu>
     </mt-popup>
   </div>
 </template>
@@ -45,6 +45,9 @@ export default {
     handleMenuVisible () {
       this.menuVisible = !this.menuVisible
     }
+  },
+  mounted () {
+    this.menuVisible = false
   }
 }
 </script>
