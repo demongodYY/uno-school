@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="comments">
-      <div class="comments-banner">
+      <div class="comments-banner" :style="backStyle">
         <h2> {{$t('pages.index.comments.title')}} </h2>
         <h5> {{$t('pages.index.comments.location')}} </h5>
         <p> {{$t('pages.index.comments.desc')}} </p>
@@ -44,6 +44,7 @@
 <script>
 // import pageHeader from '../components/header'
 import { Swipe, SwipeItem, Button } from 'mint-ui'
+import backImg from '../assets/test.jpg'
 import '../assets/css/indexPage.css'
 export default {
   name: 'index',
@@ -54,7 +55,9 @@ export default {
   },
   data () {
     return {
-      backgroundImg: `url(${require('../assets/logo.png')})`
+      backStyle: {
+        'background-image': `url(${backImg})`
+      }
     }
   }
 }
@@ -114,7 +117,6 @@ export default {
     color: #fff;
     height: 20%;
     padding-top: 10%;
-    background-image: url('../assets/test.jpg');
     background-repeat :no-repeat;
     background-size: cover;
   }

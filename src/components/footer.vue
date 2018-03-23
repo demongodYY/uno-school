@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="footer-apply">
+    <div class="footer-apply" :style="backStyle">
       <div class="inner">
         <h1>
           {{$t('footer.apply')}}
@@ -28,6 +28,7 @@
 
 <script>
 import { Button, Cell } from 'mint-ui'
+import backImg from '../assets/test2.jpg'
 export default {
   components: {
     'mt-button': Button,
@@ -35,6 +36,9 @@ export default {
   },
   data () {
     return {
+      backStyle: {
+        'background-image': `url(${backImg})`
+      },
       contacts: {
         'W': ' world.unomaha.edu',
         'E': ' world@unomaha.edu',
@@ -64,7 +68,7 @@ export default {
     color:#D71920;
   }
   .footer-apply {
-    background: url('../assets/test2.jpg') no-repeat;
+    background-repeat :no-repeat;
     background-size: cover;
     color: #ffffff;
     text-align: center;
