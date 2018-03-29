@@ -75,12 +75,12 @@ export default {
     inline-size: 1.1rem;
     font-weight: bold;
   }
-  .button-switch{
+  .wrapper .mint-header button.button-switch{
     padding: 0 1rem;
     border: 2px solid #ffffff;
     border-radius: 0;
   }
-  .mint-button{
+  .wrapper .mint-header button.mint-button{
     margin: .5rem .5rem;
   }
   .menu-icon {
