@@ -1,3 +1,7 @@
 .mint-cell-wrapper {
   background:inherit;
 }
+
+.mint-cell:last-child{
+  background: inherit;
+}

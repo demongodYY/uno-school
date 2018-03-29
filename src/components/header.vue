@@ -56,6 +56,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .wrapper {
+    height: 11vh;
+  }
   .header-container{
     background-color: #0e0e0e;
     height:11vh;
