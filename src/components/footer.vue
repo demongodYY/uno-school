@@ -28,7 +28,7 @@
 
 <script>
 import { Button, Cell } from 'mint-ui'
-import backImg from '../assets/test2.jpg'
+import backImg from '../assets/join-1.jpg'
 export default {
   components: {
     'mt-button': Button,
@@ -74,25 +74,30 @@ export default {
     text-align: center;
     /* height: 35vh; */
     width:100%;
+    height: 80vw;
   }
   .footer-apply .inner {
     background-color: rgba(215,25,32,.8);
-    padding: 10% 7.5%;
-    height: 80%;
-    width: 85%;
+    /* padding: 10% 7.5%; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
   }
   .footer-apply h1 {
-    margin-bottom: 8vh;
+    margin-bottom: 30px;
     color: #fff;
     margin-top: 0;
   }
   .apply-button {
-    border: 1.2px solid #ffffff;
-    padding: .1rem 0;
+    border: 2px solid #ffffff;
+    display: flex;
+    padding: 0 5rem;
     height: 3.4rem;
     color: #ffffff;
     margin: 0 auto;
-    width: 70%;
     border-radius: 0;
   }
   .mint-cell {

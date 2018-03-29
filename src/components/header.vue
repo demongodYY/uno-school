@@ -2,7 +2,9 @@
   <div class="wrapper">
     <mt-header fixed class="header-container">
       <div slot="left" class="header-left">
-        <img src="@/assets/logo.png" alt="logo"/>
+        <router-link to="/">
+          <img src="@/assets/logo.png" alt="logo"/>
+        </router-link>
         <div>ILUNO<br/>PROGRAM</div>
       </div>
       <div slot="right">
@@ -61,22 +63,21 @@ export default {
   }
   .header-left {
     color: #fff;
+    display: flex;
+    align-items:center;
   }
   .header-left img {
     height: auto;
     width: 15vw;
   }
   .header-left div {
-    margin-top: 2vh;
     margin-left: .5rem;
-    display: inline-block;
-    vertical-align: top;
     inline-size: 1.1rem;
     font-weight: bold;
   }
   .button-switch{
     padding: 0 1rem;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 0;
   }
   .mint-button{

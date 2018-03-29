@@ -31,7 +31,7 @@ export default {
       ]
     },
     mission: {
-      text: 'International students at UNO may choose to live in on-campus, apartment-style housing– comfortable and convenient for both studying and discovering Omaha’s attractions.'
+      text: 'UNO的留学生可以选择校内公寓 - 既可以舒适的学习，又能方便地游览 Omaha 的美景。'
     }
   },
   en: {

@@ -1,3 +1,10 @@
 div.mint-swipe-items-wrap{
   overflow: visible;
 }
+.mint-swipe-indicator.is-active {
+  background-color:#D71920;
+}
+.mint-swipe-indicator {
+  opacity: 1;
+  background-color: #999999;
+}

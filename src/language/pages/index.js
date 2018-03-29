@@ -1,13 +1,13 @@
-import cardBanner1 from '../../assets/test.jpg'
-import avatar1 from '../../assets/avatar.png'
-import cardBanner2 from '../../assets/test2.jpg'
-import cardBanner3 from '../../assets/test3.jpg'
-const avatar2 = avatar1
+import cardBanner1 from '../../assets/home-2.jpg'
+import cardBanner2 from '../../assets/home-3.jpg'
+import cardBanner3 from '../../assets/home-4.jpg'
+import avatar1 from '../../assets/avatar1.png'
+import avatar2 from '../../assets/avatar2.png'
 
 export default {
   zh: {
     introduce: {
-      title: '欢迎来 ILUNO 学习英语',
+      title: '欢迎来 <span style="color:#D71920">ILUNO</span> 学习英语',
       text: '这里有你一直在寻找的机会，提高你的英语水平，获得更多的自信。'
     },
     cards: [
@@ -50,7 +50,7 @@ export default {
   },
   en: {
     introduce: {
-      title: 'Welcome to ILUNO INTENSIVE ENGLISH',
+      title: 'Welcome to <span style="color:#D71920">ILUNO</span> INTENSIVE ENGLISH',
       text: 'The opportunity you have been waiting is here.  Take your English confidence and academic knowledge to a new level.'
     },
     cards: [

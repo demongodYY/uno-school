@@ -12,15 +12,18 @@
           <span>></span>
         </mt-cell>
       </div>
-      <router-link to="/apply" >
-        <mt-button plain size="large" @click="handleChoose()" class="menu-button">{{$t('button.apply')}}</mt-button>
-      </router-link>
+      <div class="apply-button">
+        <router-link to="/apply" >
+          <mt-button plain size="large" @click="handleChoose()" class="menu-button">{{$t('button.apply')}}</mt-button>
+        </router-link>
+      </div>
 
   </div>
 </template>
 
 <script>
 import { Cell, Button } from 'mint-ui'
+import '@/assets/css/menu.css'
 export default {
   name: 'side-menu',
   components: {
@@ -42,6 +45,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  /* @import url('../assets/css/menu.css'); */
   .menu-title {
     font-size: 2.5rem;
     font-weight: bold;
@@ -67,11 +71,15 @@ export default {
   .menu-button {
     color:#fff;
     border-color: #fff;
+    border-width: 2px;
     padding-top:1rem;
     padding-bottom: 1rem;
-    width: 70%;
+    width: 100%;
     margin:0 auto;
     height: auto;
     border-radius: 0;
+  }
+  .apply-button{
+    padding:0 10px;
   }
 </style>

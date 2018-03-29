@@ -5,7 +5,7 @@ import lifePage from './pages/life'
 
 export default {
   en: {
-    type: 'English',
+    type: '中文',
     button: {
       apply: 'APPLY NOW',
       more: 'Read More'
@@ -35,7 +35,7 @@ export default {
     }
   },
   zh: {
-    type: '中文',
+    type: 'English',
     button: {
       apply: '马上申请',
       more: '了解更多'

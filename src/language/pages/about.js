@@ -1,7 +1,7 @@
 export default {
   zh: {
     section1: {
-      title: 'ILUNO项目简介',
+      title: '<span style="color:#D71920">ILUNO</span> 项目简介',
       paragraphs: [
         {
           title: '悠久的历史',
@@ -39,13 +39,13 @@ export default {
       ]
     },
     mission: {
-      title: '任务',
-      text: '提供牛逼的学英语方式，让学生快速掌握英语技能各种交流'
+      title: '我们的使命',
+      text: '提供一个全面的，以学生为中心的英语学习课程。通过学习本课程，学生将能够用英语进行日常沟通，工作环境的沟通，并且能获得英文的学术语言能力。'
     }
   },
   en: {
     section1: {
-      title: 'ABOUT THE ILUNO PROGRAM',
+      title: 'ABOUT THE <span style="color:#D71920">ILUNO</span> PROGRAM',
       paragraphs: [
         {
           title: 'EXPERIENCED',

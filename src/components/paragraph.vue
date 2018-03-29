@@ -2,12 +2,17 @@
   <div class="container">
     <h2>{{title}}</h2>
     <p v-for="(item, index) in texts" :key="index" >{{item}}</p>
+    <bottom-line/>
   </div>
 </template>
 
 <script>
+import BottomLine from '@/components/bottom-line'
 export default {
   name: 'listItem',
+  components: {
+    'bottom-line': BottomLine
+  },
   props: {
     'title': String,
     'texts': Array
@@ -17,8 +22,6 @@ export default {
 
 <style scoped>
   .container {
-    padding:0 3% 1.5rem 3%;
-    margin-bottom: 2vh;
-    margin-top: 3vh;
+    margin-bottom: 60px;
   }
 </style>

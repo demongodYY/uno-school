@@ -27,16 +27,18 @@ export default {
   }
   .cards img {
     width:100%;
-    height: 30vh;
+    height: 70vw;
   }
   .card-info {
     width: 80%;
     margin: -8vh 5% 0 5%;
     background-color:#fff;
     position: relative;
-    z-index: 99;
+    z-index: .7;
     padding: 1vh 5% 1vh 5%;
-    font-size: 2.25vh;
+    font-size: 18px;
+    line-height: 28px;
     box-shadow: 0px 5px 30px 0px rgba(14,14,14,0.15);
+    text-align: left;
   }
 </style>

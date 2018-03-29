@@ -1,6 +1,6 @@
-import banner1 from '@/assets/test.jpg'
-import banner2 from '@/assets/test2.jpg'
-import banner3 from '@/assets/test3.jpg'
+import banner1 from '@/assets/comm-2.jpg'
+import banner2 from '@/assets/comm-3.jpg'
+import banner3 from '@/assets/comm-4.jpg'
 
 export default {
   zh: {

@@ -1,17 +1,17 @@
 <template>
   <div class="container">
     <div class="banner">
-      <img src="../assets/test2.jpg" alt="banner"/>
+      <img src="../assets/about-1.jpg" alt="banner"/>
     </div>
     <div class="section">
-      <h1>{{$t('pages.about.section1.title')}}</h1>
+      <h1 class="title" v-html="$t('pages.about.section1.title')"></h1>
       <paragraph  v-for="(item, index) in $t('pages.about.section1.paragraphs')" :key="index" :title="item.title" :texts="item.text"></paragraph>
     </div>
     <div class="banner">
-      <img src="../assets/test.jpg" alt="banner2"/>
+      <img src="../assets/about-2.jpg" alt="banner2"/>
     </div>
     <div class="section">
-      <h1>{{$t('pages.about.section2.title')}}</h1>
+      <h1 class="title" v-html="$t('pages.about.section2.title')"></h1>
       <paragraph  v-for="(item, index) in $t('pages.about.section2.paragraphs')" :key="index" :title="item.title" :texts="item.text"></paragraph>
     </div>
     <div class="mission">
@@ -19,7 +19,7 @@
       <p>{{$t('pages.about.mission.text')}}</p>
     </div>
     <div class="banner">
-      <img src="../assets/test2.jpg" alt="banner"/>
+      <img src="../assets/about-3.jpg" alt="banner"/>
     </div>
   </div>
 </template>
@@ -42,7 +42,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .section {
-    padding: 3vh 5% 5vh 5%;
+    padding: 0 7% 5vh 7%;
     text-align: left;
   }
   .mission {
