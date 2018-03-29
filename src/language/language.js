@@ -31,7 +31,9 @@ export default {
         link: '/contact'}]
     },
     footer: {
-      apply: 'Come & join us today!'
+      contact: 'Contact ILUNO',
+      apply: 'Come & join us today!',
+      content: 'The University of Nebraska does not discriminate based on race, color, ethnicity, national origin, sex, pregnancy, sexual orientation, gender identity, religion, disability, age, genetic information, veteran status, marital status, and/or political af liation in its programs, activities, or employment.'
     }
   },
   zh: {
@@ -61,7 +63,9 @@ export default {
         link: '/contact'}]
     },
     footer: {
-      apply: '现在就来加入我们吧!'
+      contact: '联系 ILUNO',
+      apply: '现在就来加入我们吧!',
+      content: '内布拉斯加大学不会因为以下任何因素对个人或团体有歧视：人种，肤色，民族，国籍，是否怀孕，性取向，性别身份，宗教，残疾，年龄，基因信息，兵役情况，婚姻状况，以及政治立场，活动或从政情况。'
     }
   }
 }

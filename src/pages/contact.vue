@@ -14,6 +14,7 @@
       <h3>Mike Oven</h3>
       <list-item icon="E" text="mdowen@unomaha.edu" important=true></list-item>
       <div class="qr-code">
+        <p>Scan in wechat:</p>
         <img src="@/assets/qr.jpg" alt="qr code"/>
       </div>
     </div>

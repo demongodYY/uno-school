@@ -2,6 +2,7 @@
   <div class="menu-wrapper">
       <div class="menu-title">
         {{$t('menu.title')}}
+        <span class="close-icon" v-on:click="handleChoose()">✖️</span>
       </div>
       <div class="menu-list">
         <mt-cell v-for="(item, index) in $t('menu.list')" :key="index"
@@ -53,6 +54,16 @@ export default {
     border-bottom: 2px solid red;
     margin-bottom:1rem;
     margin-left: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-title .close-icon {
+    color: #999999;
+    text-align: right;
+    font-weight: lighter;
+    font-family: console;
+    font-size: 25px;
   }
   .menu-wrapper {
     height: 100vh;

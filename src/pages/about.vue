@@ -11,7 +11,7 @@
       <img src="../assets/about-2.jpg" alt="banner2"/>
     </div>
     <div class="section">
-      <h1 class="title" v-html="$t('pages.about.section2.title')"></h1>
+      <h1 class="title">{{$t('pages.about.section2.title')}}</h1>
       <paragraph  v-for="(item, index) in $t('pages.about.section2.paragraphs')" :key="index" :title="item.title" :texts="item.text"></paragraph>
     </div>
     <div class="mission">

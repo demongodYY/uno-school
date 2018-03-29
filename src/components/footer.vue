@@ -12,7 +12,7 @@
     </div>
     <div class="footer-wrapper">
       <div class="footer-contact">
-        <h3>Contact ILUNO</h3>
+        <h3>{{$t('footer.contact')}}</h3>
         <p>6001 Dodge Street,<br/>Omaha, NE 68182-0082, USA</p>
         <div v-for="(value, key, index) in contacts" :key="index">
           {{key}}:
@@ -21,7 +21,8 @@
         </div>
       </div>
       <img src="@/assets/footer-logo.png" alt="footer-logo" class="footer-logo">
-      <p class="note">The University of Nebraska does not discriminate based on race, color, ethnicity, national origin, sex, pregnancy, sexual orientation, gender identity, religion, disability, age, genetic information, veteran status, marital status, and/or political af liation in its programs, activities, or employment. 0584BROISP0316</p>
+      <p class="note">{{$t('footer.content')}}</p>
+      <p class="note">0584BROISP0316</p>
     </div>
   </div>
 </template>
@@ -109,5 +110,6 @@ export default {
   }
   .note {
     font-size: .7rem;
+    line-height: 1rem;
   }
 </style>
