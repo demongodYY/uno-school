@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="banner">
-      <img src="../assets/test2.jpg" alt="banner"/>
+      <img src="../assets/contact-1.jpg" alt="banner"/>
     </div>
     <div class="section">
       <h1 class="title">CONTACT <span style="color:#D71920">ILUNO</span><br/><span class="subtitle">International Admissions</span></h1>

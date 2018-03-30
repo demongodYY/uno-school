@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="banner">
-      <img src="../assets/test2.jpg" alt="banner"/>
+      <img src="../assets/join-1.jpg" alt="banner"/>
     </div>
     <div class="section">
       <h1 class="title">GET START</h1>
