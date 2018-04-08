@@ -8,6 +8,7 @@ export default {
     type: '中文',
     button: {
       apply: 'APPLY NOW',
+      problem: 'CONTACT MIKE',
       more: 'Read More'
     },
     pages: {
@@ -32,6 +33,7 @@ export default {
     },
     footer: {
       contact: 'Contact ILUNO',
+      problem: 'HAVE PROBLEM TO APPLY?',
       apply: 'Come & join us today!',
       content: 'The University of Nebraska does not discriminate based on race, color, ethnicity, national origin, sex, pregnancy, sexual orientation, gender identity, religion, disability, age, genetic information, veteran status, marital status, and/or political af liation in its programs, activities, or employment.'
     }
@@ -40,6 +42,7 @@ export default {
     type: 'English',
     button: {
       apply: '马上申请',
+      problem: '联系 Mike',
       more: '了解更多'
     },
     pages: {
@@ -65,6 +68,7 @@ export default {
     footer: {
       contact: '联系 ILUNO',
       apply: '现在就来加入我们吧!',
+      problem: '对申请有疑问?',
       content: '内布拉斯加大学不会因为以下任何因素对个人或团体有歧视：人种，肤色，民族，国籍，是否怀孕，性取向，性别身份，宗教，残疾，年龄，基因信息，兵役情况，婚姻状况，以及政治立场，活动或从政情况。'
     }
   }

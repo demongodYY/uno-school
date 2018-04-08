@@ -49,7 +49,7 @@ export default {
       paragraphs: [
         {
           title: 'EXPERIENCED',
-          text: ['The University of Nebraska at Omaha(UNO)has offer English as a Second Language to international students for 40 years.']
+          text: ['The University of Nebraska at Omaha(UNO) has offer English as a Second Language to international students for 40 years.']
         },
         {
           title: 'INTENSIVE',

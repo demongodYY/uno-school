@@ -1,8 +1,9 @@
 <template>
   <div class="container">
     <div class="left-icon">{{icon}}</div>
-    <div class="right-text" v-if="important === false">{{text}}</div>
-    <div class="right-text important" v-else>{{text}}</div>
+    <div class="right-text important" v-if="important === true">{{text}}</div>
+    <div class="right-text important" v-else-if="link === true"><span>{{title}}</span> {{text}}</div>
+    <div class="right-text" v-else>{{text}}</div>
   </div>
 </template>
 
@@ -12,6 +13,11 @@ export default {
   props: {
     'icon': String,
     'text': String,
+    'title': String,
+    'link': {
+      Type: Boolean,
+      default: false
+    },
     'important': {
       Type: Boolean,
       default: false}
@@ -40,5 +46,8 @@ export default {
     padding-bottom: .7rem;
     padding-top: .7rem;
     height: 2rem;
+  }
+  .important span {
+    color: #606060;
   }
 </style>

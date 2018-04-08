@@ -1,12 +1,22 @@
 <template>
   <div>
-    <div class="footer-apply" :style="backStyle">
+    <div class="footer-apply" v-if="!isApply" :style="backStyle">
       <div class="inner">
         <h1>
           {{$t('footer.apply')}}
         </h1>
         <router-link to="apply">
            <mt-button plain size="large" class="apply-button"> {{$t('button.apply')}} </mt-button>
+        </router-link>
+      </div>
+    </div>
+    <div class="footer-apply" v-else style="background-color:red">
+      <div class="inner">
+        <h1>
+          {{$t('footer.problem')}}
+        </h1>
+        <router-link to="apply">
+           <mt-button plain size="large" class="apply-button"> {{$t('button.problem')}} </mt-button>
         </router-link>
       </div>
     </div>
@@ -30,6 +40,7 @@
 <script>
 import { Button, Cell } from 'mint-ui'
 import backImg from '../assets/join-1.jpg'
+import eventBus from '../event-bus'
 export default {
   components: {
     'mt-button': Button,
@@ -45,8 +56,15 @@ export default {
         'E': ' world@unomaha.edu',
         'T': ' 1.402.554.2293',
         'F': ' 1.402.554.2949'
-      }
+      },
+      isApply: false
     }
+  },
+  mounted () {
+    eventBus.$on('isApply', (isApply) => {
+      this.isApply = isApply
+      console.log(isApply)
+    })
   }
 }
 </script>
