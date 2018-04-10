@@ -15,7 +15,7 @@
         <h1>
           {{$t('footer.problem')}}
         </h1>
-        <router-link to="apply">
+        <router-link to="contact">
            <mt-button plain size="large" class="apply-button"> {{$t('button.problem')}} </mt-button>
         </router-link>
       </div>
