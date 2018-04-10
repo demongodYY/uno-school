@@ -58,7 +58,7 @@ export default {
         {
           title: 'PERSONALIZED',
           text: [
-            'New ILUNO students collaborate with program instructors to evaluate their English ability and select language classes at one of six levels-beginning to advanced.',
+            'New ILUNO students collaborate with program instructors to evaluate their English ability and select language classes at one of six levels, beginning to advanced.',
             'Experienced instructions teach reading and vocabulary, grammar and writing, listening, pronunciation, TOFEL preparation, and critical-thinking skills.',
             'Instructors are available daily to meet with students to discuss their class work, language skills, and future academic plans.'
           ]

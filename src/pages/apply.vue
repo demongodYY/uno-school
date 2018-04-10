@@ -13,7 +13,7 @@
       <div class="block">
       <h3>What to Send</h3>
         <list-item icon="1" text="Completed application and $45 application fee"></list-item>
-        <list-item icon="2" text='Offcial copy of secondary school diploma'></list-item>
+        <list-item icon="2" text='Official copy of secondary school diploma'></list-item>
         <list-item icon="3" text='Proof of financial support (see website for details)'></list-item>
       </div>
       <div class="block">
