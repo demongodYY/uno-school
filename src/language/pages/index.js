@@ -75,7 +75,7 @@ export default {
     ],
     comments: {
       title: 'THE WORLD MEETS HERE',
-      location: 'Omahma, NE',
+      location: 'Omaha, NE',
       desc: 'In the Heart of the U.S',
       cards: [
         {
