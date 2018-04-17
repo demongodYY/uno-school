@@ -120,11 +120,14 @@ export default {
     flex-wrap:wrap;
     flex-direction: column;
     justify-content: center;
-    height:100%;
+    height:90%;
   }
   .banner-contents h2 {
     color: #fff;
     margin-top: 0;
+  }
+  .banner-contents h5{
+    margin: .8rem 0;
   }
   .comments-banner {
     color: #fff;

@@ -32,7 +32,7 @@ export default {
     ],
     comments: {
       title: '倾听世界的声音',
-      location: 'Ohama, Ne',
+      location: 'Omaha, NE',
       desc: '在美国的中心',
       cards: [
         {
@@ -75,7 +75,7 @@ export default {
     ],
     comments: {
       title: 'THE WORLD MEETS HERE',
-      location: 'Ohama, Ne',
+      location: 'Omahma, NE',
       desc: 'In the Heart of the U.S',
       cards: [
         {
